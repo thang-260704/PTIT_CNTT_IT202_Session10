@@ -232,7 +232,7 @@ select user_id, username, full_name, email, created_at from users where full_nam
 
 insert into users(username, full_name, gender, email, password, birthdate, hometown)
 values
-    ('hung', 'Nguyễn Mạnh Hùng', 'Nam', 'hung@gmail.com', '123456', '1997-01-01', 'Hà Nội');
+    ('thang', 'Nguyễn Quyết Thắng', 'Nam', 'thang@gmail.com', '123456', '1997-01-01', 'Hà Nội');
 
 delete from users where username = 'hung';
 
